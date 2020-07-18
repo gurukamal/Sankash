@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_top_screen"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/khanda1"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img_bottom_screen"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:src="@drawable/khanda1"
+        />
+
+</LinearLayout>
